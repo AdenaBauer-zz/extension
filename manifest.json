@@ -3,10 +3,15 @@
     "version": "1.0",
     "description": "Search Stack Overflow for anything!",
     "permissions": ["activeTab"],
-    "icons": {"128": "images/so_logo.png"},
+    "icons": {"128": "images/128.png"},
     "browser_action": {
       "default_popup": "popup.html",
-      "default_icon": {"16": "images/so_logo_16.png"}
+      "default_icon": {     
+        "16": "images/16.png",
+        "32": "images/32.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+      }
     },
     "manifest_version": 2
   }

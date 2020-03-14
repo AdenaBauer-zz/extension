@@ -35,5 +35,5 @@ function go() {
 		var newURL = "http://www.stackoverflow.com/search?q=" + keyInput;
 		chrome.tabs.create({ url: newURL });
 	}
-
+	
 }
